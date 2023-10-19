@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navigationpane{
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+}
+
+.homepage{
+    height: 90%;
+    width: 100%;
+    background-color: rgb(209, 34, 34);
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+.player{
+    height: 90%;
+    width: 100%;
+    background-color:black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.albumart{
+    height:400px;
+    width: 400px;
+    background-color: aqua;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 200px);
+
+    background-image: url('./IMG_20200330_092608.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+
+}
+.controls{
+    position: absolute;
+    height: 100px;
+    width: 400px;
+    /* background-color: bisque; */
+    top: calc(50vh + 200px);
+    left: calc(50vw - 200px);
+}
+
+.btn{
+   
+    height: 70px;
+    width: 70px;
+    background-color: chartreuse;
+    display: inline-block;
+    margin-left: 45px;
+
+}
+#myplayer{
+    display: none;
+}
+
